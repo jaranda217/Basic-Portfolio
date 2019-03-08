@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #dddddd;
+}
+#absolute {
+    background: #4aaaa5;
+    color: white;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 12px;
+    position: absolute;
+    text-align: center;
+    left: 149px;
+    top: 0px;
+    width: 250px;
+    height: 60px;
+    float: left;
+}
+
+#relative {
+    left: 0px;
+    position: relative;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    height: 200px;
+    width: 30%;
+
+}
+
+#relative2 {
+    left: 0px;
+    position: relative;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    height: 200px;
+    width: 30%;
+
+}
+
+#relative3 {
+    left: 0px;
+    position: relative;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    height: 200px;
+    width: 30%;
+
+}
+
+#relative4 {
+    left: 0px;
+    position: relative;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    height: 200px;
+    width: 30%;
+
+}
+
+#relative5 {
+    left: 0px;
+    position: relative;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    height: 200px;
+    width: 30%;
+
+}
+
+#absolute2 {
+    background: #4aaaa5;
+    width: 100%;
+    position: absolute;
+    padding: 10px;
+    text-align: center;
+    bottom: 0;
+    right: 0px;
+    left: 30px;
+
+}
+
+.list-group {
+    float: right;
+    right: 149px;
+    position: absolute;
+    height: 60px;
+    top: 0px;
+}
+
+#heading {
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+.wrapper {
+    width: 960px;
+    margin: 85px auto 0 auto;
+    padding: 20px;
+
+    /* Suppose to be the border background color */
+    background: #ffffff;
+}
+
+#border {
+    line-height: 100px;
+    color: black;
+    width: 660px;
+    background-color: black;
+}
+
+img {
+    float: left;
+    margin: 10px;
+}
+
+#first {
+    float: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+p {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+}
